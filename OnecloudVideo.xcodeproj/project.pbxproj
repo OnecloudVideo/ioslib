@@ -10,6 +10,7 @@
 		4ED420391AAD4DA10033B839 /* OnecloudVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED420381AAD4DA10033B839 /* OnecloudVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ED4203F1AAD4DA10033B839 /* OnecloudVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED420331AAD4DA10033B839 /* OnecloudVideo.framework */; };
 		4ED420461AAD4DA10033B839 /* OnecloudVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED420451AAD4DA10033B839 /* OnecloudVideoTests.swift */; };
+		4ED420501AAD4DB80033B839 /* OnecloudVideoUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4204F1AAD4DB80033B839 /* OnecloudVideoUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		4ED4203E1AAD4DA10033B839 /* OnecloudVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnecloudVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED420441AAD4DA10033B839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ED420451AAD4DA10033B839 /* OnecloudVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnecloudVideoTests.swift; sourceTree = "<group>"; };
+		4ED4204F1AAD4DB80033B839 /* OnecloudVideoUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnecloudVideoUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		4ED420351AAD4DA10033B839 /* OnecloudVideo */ = {
 			isa = PBXGroup;
 			children = (
+				4ED4204F1AAD4DB80033B839 /* OnecloudVideoUtil.swift */,
 				4ED420381AAD4DA10033B839 /* OnecloudVideo.h */,
 				4ED420361AAD4DA10033B839 /* Supporting Files */,
 			);
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED420501AAD4DB80033B839 /* OnecloudVideoUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +323,7 @@
 		4ED4204A1AAD4DA10033B839 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -328,12 +333,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		4ED4204B1AAD4DA10033B839 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
