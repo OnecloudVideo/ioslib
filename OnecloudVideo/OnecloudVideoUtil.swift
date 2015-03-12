@@ -44,6 +44,6 @@ public class OnecloudVideoUtil : AVPlayer
         Get a valid video url which deploying in onecloud video platform.
     */
     public class func getUrlWithReferer(url : String!, referer : String!) -> String! {
-        return "\(url)?referer=\(referer)"
+        return "\(url)?Referer=\(referer)"
     }
 }

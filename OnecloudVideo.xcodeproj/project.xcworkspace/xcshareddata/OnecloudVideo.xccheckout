@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1A8D1688-393E-43C9-BB2B-115765349254</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OnecloudVideo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>35220E0D26222C9DED9B85B976326C70756E2A09</key>
+		<string>https://github.com/OnecloudVideo/ioslib.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OnecloudVideo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>35220E0D26222C9DED9B85B976326C70756E2A09</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/OnecloudVideo/ioslib.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>35220E0D26222C9DED9B85B976326C70756E2A09</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>35220E0D26222C9DED9B85B976326C70756E2A09</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OnecloudVideo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
